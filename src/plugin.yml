@@ -1,0 +1,20 @@
+name: Kingdom
+version: 1.0
+main: me.tinusium.thekingdom.Main
+author: tinusium
+description: Kingdom
+website: http://www.tinusium.nl
+softdepend: [Vault]
+
+commands:
+  kingdom:
+    description: Main command!
+    aliases: [kd]
+  empirewand:
+    description: Krijg de Empire Wand!
+  kingdomgui:
+    description: Open een GUI
+    aliases: [kdg,kdgui]
+  scoreboard:
+    description: toggle je scoreboard
+    aliases: [sb]
